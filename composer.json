@@ -19,8 +19,12 @@
         "vendor-dir": "vendor",
         "secure-http": false
     },
+    "autoload": {
+        "psr-0": {"Logsmith\\Installer": "scripts"}
+    },
     "scripts": {
-        "post-install-cmd": ["Bedrock\\Installer::addSalts"]
+        "post-install-cmd": ["Logsmith\\Installer::installLogsmith"],
+        "post-create-project-cmd": ["Logsmith\\Installer::installLogsmith"]
     },
     "require": {
         "johnpbloch/wordpress": ">=3.9",
