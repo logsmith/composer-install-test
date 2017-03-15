@@ -24,6 +24,7 @@
     },
     "scripts": {
         "post-install-cmd": ["Logsmith\\Installer::installLogsmith"],
+        "post-root-package-install": ["Logsmith\\Installer::installLogsmith"],
         "post-create-project-cmd": ["Logsmith\\Installer::installLogsmith"]
     },
     "require": {
