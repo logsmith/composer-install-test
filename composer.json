@@ -1,0 +1,45 @@
+{
+    "name": "logsmith/composer-install-test",
+    "description": "Composer installer for wordpress",
+    "authors": [
+        {
+            "name": "Atomic Smash",
+            "email": "mail@atomicsmash.co.uk",
+            "homepage": "http://www.atomicsmash.co.uk/"
+        }
+    ],
+    "type": "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor",
+        "secure-http": false
+    },
+    "require": {
+        "johnpbloch/wordpress": ">=3.9",
+
+		"wpackagist-plugin/timber-library": "*",
+		"wpackagist-plugin/wordpress-seo": "*",
+		"wpackagist-plugin/simple-page-ordering": "*",
+        "wpackagist-plugin/login-recaptcha": "*",
+        "wpackagist-plugin/user-switching": "*",
+        "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "*",
+        "wpackagist-plugin/smart-maintenance-mode": "*",
+        "wpackagist-plugin/gravity-forms-no-captcha-recaptcha": "*",
+        "wpackagist-plugin/simple-301-redirects": "*",
+        "wpackagist-plugin/advanced-custom-fields-table-field": "*",
+
+        "johnbillion/extended-cpts": "*",
+        "johnbillion/extended-taxos": "*",
+
+        "gillesgoetsch/acf-smart-button": "dev-master",
+
+    },
+    "extra": {
+        "wordpress-install-dir": "wp"
+    }
+}
