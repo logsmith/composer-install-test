@@ -19,6 +19,9 @@
         "vendor-dir": "vendor",
         "secure-http": false
     },
+    "scripts": {
+        "post-install-cmd": ["Bedrock\\Installer::addSalts"]
+    },
     "require": {
         "johnpbloch/wordpress": ">=3.9",
 
