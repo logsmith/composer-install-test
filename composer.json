@@ -36,7 +36,7 @@
         "johnbillion/extended-cpts": "*",
         "johnbillion/extended-taxos": "*",
 
-        "gillesgoetsch/acf-smart-button": "dev-master",
+        "gillesgoetsch/acf-smart-button": "dev-master"
 
     },
     "extra": {
